@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Form</title>
+	<link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400" rel="stylesheet">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<header>
+		<h1><img src="img/logo1.gif" alt="masteralb creative" class="logo1"><h1>
+	</header>
+	<div class="wrapper">
+		<div class="column">
+		
+		<!-- Register Form -->
+			<section>
+				<h2 class="title">Register Form</h2>
+				<div class="card card-1">
+					<form action="" method="post">
+
+						<div class="input-area">
+							<div class="division"></div>
+							<label for="su-username">Username</label>
+							<input type="text" name="username" id="su-username" placeholder="Username" required>
+						</div>
+
+						<div class="input-area">
+							<div class="division"></div>
+							<label for="password">Password</label>
+							<input type="password" name="password" id="password" placeholder="Password" required>
+						</div>
+
+						<div class="input-area">
+							<div class="division"></div>
+							<label for="confirm-password">Confirm password</label>
+							<input type="password" name="password" id="confirm-password" placeholder="Cofirm Password" required>
+						</div>
+
+						<div class="input-area">
+							<div class="division"></div>
+							<label for="su-email">Email</label>
+							<input type="email" name="su-email" id="su-email" placeholder="Email" required>
+						</div>
+
+						<div class="input-area">
+							<div class="division"></div>
+							<label for="location"></label>
+							<select name="location" id="location" title="Your Location">
+								<option value="choice 1" selected disabled>Your location</option>
+								<option value="choice 2">Poland</option>
+								<option value="choice 2">USA</option>
+								<option value="choice 2">China</option>
+							</select>
+						</div>
+			
+							<input type="checkbox" name="terms" id="checkbox-input" checked>
+							<label for="checkbox-input" class="label-text">I have read and accept the terms of use. 
+							</label>
+					
+						<button type="submit" class="btn btn-bg">Sing up</button>
+
+					</form>
+				</div>
+			</section>
+	
+		<!-- Send Email -->
+			<section>
+				<h2 class="title">Send Email</h2>
+				<div class="card card-2">
+					<form action="" method="post">
+
+						<div class="input-area">
+							<div class="division"></div>
+							<label for="se-username">Username</label>
+							<input type="text" name="se-username" id="se-username" placeholder="Your Name" required>
+						</div>
+
+						<div class="input-area">
+							<div class="division"></div>
+							<label for="se-email">Email</label>
+							<input type="email" name="se-email" id="se-email" placeholder="Your Email" required>
+						</div>
+
+						<div class="input-area">
+							<label for="message">Message</label>
+							<textarea name="message" maxlength="100" placeholder="Type your message..."></textarea>
+						</div>
+
+						<input type="checkbox" name="copy-mail" id="copy-mail" checked>
+						<label for="copy-mail">Send a copy to my Email </label>
+
+						<button type="submit" class="btn btn-bg">Send Email</button>
+
+					</form>
+				</div>
+			</section>	
+		</div>
+
+		<div class="column">
+
+		<!-- Sign In Form -->
+			<section>
+				<h2 class="title">Sign In Form</h2>
+				<div class="card card-3">
+					<form action="" method="post">
+
+						<div class="input-area">
+							<div class="division"></div>
+							<label for="si-username">Username</label>
+							<input type="text" name="si-username" id="si-username" placeholder="Your Name" required>
+						</div>
+
+						<div class="input-area">
+							<div class="division"></div>
+							<label for="si-email">Password</label>
+							<input type="email" name="si-email" id="si-email" placeholder="Your Email" required>
+						</div>
+
+						<input type="checkbox" name="remember" id="remember" checked>
+						<label for="remember">Remember me</label>
+
+						<button type="submit" class="btn btn-sl btn-rg btn-si">Sign in</button>
+
+					</form>
+				</div>
+			</section>	
+
+		<!-- Recover Form -->
+			<section>
+				<h2 class="title">Recover Form</h2>
+				<div class="card card-4">
+					<form action="" method="post">
+
+						<div class="input-area">
+							<div class="division"></div>
+							<label for="rf-email">Recover Email</label>
+							<input type="email" name="recover-email" id="rf-email" placeholder="Enter your Email" required>
+						</div>
+
+						<div class="input-area">
+							<div class="division"></div>
+							<label for="rf-tel">Telephone</label>
+							<input type="tel" name="telephone" id="rf-tel" placeholder="Enter your Phone number" required>
+						</div>
+
+						<button type="submit" class="btn btn-sl">Send</button>
+						<button type="submit" class="btn btn-sl btn-rg" disabled>Done</button>
+
+					</form>
+				</div>
+			</section>	
+
+			<!-- Sunscribe Form -->
+				<section>
+				<h2 class="title">Subscribe Form</h2>
+				<div class="card card-5">
+					<form action="" method="post">
+
+						<div class="input-area">
+							<div class="division"></div>
+							<label for="sub-email">Recover Email</label>
+							<input type="email" name="subscribe-email" id="sub-email" placeholder="Enter your Email" required>
+						</div>
+
+						<button type="submit" class="btn btn-sl">Subscribe</button>
+						<button type="submit" class="btn btn-sl btn-rg btn-no">No, Thanks</button>
+
+					</form>
+				</div>
+			</section>
+			<footer>
+				<img src="img/logo2.gif" alt="masteralb creative" class="logo2">
+			</footer>
+		</div>
+
+	</div>
+</body>
+</html>
